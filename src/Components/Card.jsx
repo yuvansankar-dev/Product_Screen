@@ -31,7 +31,7 @@ const Card = ({ setCartCount, productDetail }) => {
                 <div className='bi-star-fill'></div>
                 <div className='bi-star-fill'></div>
               </div>
-              {"$" + productDetail.price}
+              {productDetail.description}
             </div>
           </div>
           <div

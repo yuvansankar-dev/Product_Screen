@@ -3,16 +3,16 @@ import Card from "./Card";
 
 const ProductList = ({ setCartCount }) => {
   var productList = [
-    { productName: "Special Item 1", price: 19 },
-    { productName: "Special Item 2", price: 20 },
-    { productName: "Special Item 3", price: 21 },
-    { productName: "Special Item 4", price: 22 },
-    { productName: "Special Item 5", price: 23 },
-    { productName: "Special Item 6", price: 24 },
-    { productName: "Special Item 7", price: 25 },
-    { productName: "Special Item 8", price: 26 },
-    { productName: "Special Item 9", price: 27 },
-    { productName: "Special Item 10", price: 28 },
+    { productName: "Special Item 1", description: " This Product cost $19 " },
+    { productName: "Special Item 2", description: " This Product cost $20 " },
+    { productName: "Special Item 3", description: " This Product cost $21 " },
+    { productName: "Special Item 4", description: " This Product cost $22 " },
+    { productName: "Special Item 5", description: " This Product cost $23 " },
+    { productName: "Special Item 6", description: " This Product cost $24 " },
+    { productName: "Special Item 7", description: " This Product cost $25 " },
+    { productName: "Special Item 8", description: " This Product cost $26 " },
+    { productName: "Special Item 9", description: " This Product cost $27 " },
+    { productName: "Special Item 10", description: " This Product cost $28 " },
   ];
   return (
     <section className='py-5'>
